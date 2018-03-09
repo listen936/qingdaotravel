@@ -10,6 +10,7 @@ body {margin:0; padding:0; font:12px/1.5 helvetica,arial,"Microsoft YaHei",\5b8b
       .clearfix{*zoom:1;} 
       .clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden;content:".";} 
       a{ text-decoration: none; } 
+      a:hover{ text-decoration: none; } 
       input { outline: 0; outline: none; }
 // #app {
 //   background:url("./assets/images/background.jpg") center 0 no-repeat #d6bba0;
@@ -19,13 +20,67 @@ body{
   height: 1500px;
 }
 header {
-    display: block;
-    position: relative;
-    z-index: 999;
-    padding-bottom: 105px;
+    width: 100%;
+    min-height: 10%;
+     padding-top: 3%;
     background:url("../images/background.jpg") center 0 no-repeat;
     background-size: 100% 100%;
+    .headtext{
+        text-align: center;
+        color:#000;       
+    }
 }
+.fixed{
+    position: fixed;
+    top:0px;left: 0px;
+    z-index: 10000;
+}
+.sonmenu{
+    position: fixed;
+    top:10%;
+    z-index: 10000;
+    width:100%;
+    text-align:center;
+    h3{
+        line-height: 40px;
+        font-size: 16px;
+        border-bottom: 1px solid rgb(177, 174, 174);
+        &:hover{
+            background: rgb(92, 175, 243);
+            a{color:#fff}
+        }
+        a{
+            color:#666
+        }
+    }
+}
+@media (min-width: 576px) { 
+    .sonmenu{
+        position: fixed;
+        top:10%;
+        z-index: 10000;
+        width:100%;
+        text-align:center;
+        h3{
+            line-height: 40px;
+            font-size: 16px;
+            border-bottom: 1px solid rgb(177, 174, 174);
+            &:hover{
+                background: rgb(92, 175, 243);
+                a{color:#fff}
+            }
+            a{
+                color:#666
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
 .container_12 {
     margin-left: auto;
     margin-right: auto;
@@ -115,6 +170,11 @@ ul {
 .sf-menu li:hover a{
   color:#ffffff;
 }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
 // banner1
 .carousel-inner{
     img{
