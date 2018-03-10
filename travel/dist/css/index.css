@@ -58,13 +58,15 @@ body {
 
 header {
   width: 100%;
-  min-height: 10%;
-  padding-top: 3%;
+  height: 10%;
   background: url("../images/background.jpg") center 0 no-repeat;
   background-size: 100% 100%; }
   header .headtext {
     text-align: center;
     color: #000; }
+
+.setheight {
+  height: 100%; }
 
 .fixed {
   position: fixed;
@@ -88,6 +90,53 @@ header {
         color: #fff; }
     .sonmenu h3 a {
       color: #666; }
+
+.menu_block {
+  display: none; }
+
+.bighide {
+  display: block; }
+
+@media (min-width: 576px) {
+  .sonmenu {
+    position: fixed;
+    top: 10%;
+    z-index: 10000;
+    width: 100%;
+    text-align: center; }
+    .sonmenu h3 {
+      line-height: 40px;
+      font-size: 16px;
+      border-bottom: 1px solid #b1aeae; }
+      .sonmenu h3:hover {
+        background: #5caff3; }
+        .sonmenu h3:hover a {
+          color: #fff; }
+      .sonmenu h3 a {
+        color: #666; } }
+
+@media (min-width: 992px) {
+  head {
+    height: 170px; }
+  .bighide {
+    display: none; }
+  .menu_block {
+    display: block; }
+  .logomid {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 100%; }
+    .logomid h1 {
+      background: #fff;
+      border-radius: 50%;
+      height: 100%;
+      position: relative; }
+      .logomid h1 img {
+        vertical-align: middle;
+        position: absolute;
+        left: 20%;
+        top: 20%; } }
 
 .carousel-inner img {
   width: 100%;
