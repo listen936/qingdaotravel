@@ -16,12 +16,12 @@ body {margin:0; padding:0; font:12px/1.5 helvetica,arial,"Microsoft YaHei",\5b8b
 //   background:url("./assets/images/background.jpg") center 0 no-repeat #d6bba0;
 //   background-size: 100% 100%;
 // }
-body{
-  height: 1500px;
-}
+// body{
+// //   height: 1500px;
+// }
 header {
     width: 100%;
-    height: 10%;
+    // height: 10%;
     background:url("../images/background.jpg") center 0 no-repeat;
     background-size: 100% 100%;
     .headtext{
@@ -131,13 +131,136 @@ header {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+ header{
+     height: 200px;
+     .logomid{
+         margin-top:16px;
+     }
+     .menu_block{
+         ul>li{
+             float: left;
+         }
+         a{
+             font-size: 24px;
+             font-weight: bold;
+             color:rgb(92, 175, 243);
+             &:hover{
+                color:#021C91;
+             }
+         }
+     }
+ }
+ .logomid {
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    /* width: 20%; */
+    height: 100%;
 
 }
-
 // banner1
+#banner1{
+    margin-top:200px;
+    img{
+        width: 100%;
+        height: 749px;
+    }
+}
 .carousel-inner{
     img{
         width: 100%;
         height: 100%;
     }
+
+}
+.carousel-indicators {
+    li{
+        width:20px;
+        height: 20px;
+        border-radius:50%;
+        margin-right: 15px;
+        &:hover{
+            background: rgb(92, 175, 243);
+        }
+    }
+   
+    .active{
+        background: rgb(92, 175, 243);
+    }
+
+}
+// 畅游青岛模块
+.tour{
+    margin-top:100px;
+    text-align: center;
+    .imgbox{
+        padding: 0;
+        img{
+            width:100%;
+            height: 100%;
+        }
+        &:hover {
+            .imgshade{
+                display: block;
+            }
+        }
+    }
+    .imgshade{
+        position: absolute;
+        z-index: 10;
+        width:100%;
+        height: 100%;
+        background: rgba(51, 48, 238, 0.4);
+        display: none;
+        p{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            font-size: 36px;
+            margin-top: -18px;
+            margin-left: -36px;
+            color: #fff;
+        }
+    }
+}
+//模块标题
+.blocktitle{
+    text-align: center;
+    color:rgb(92, 175, 243);
+    font-size:36px;
+    
+}
+
+.line{
+    display: inline-block;
+    background: rgba(128, 128, 128, 0.41);
+    height: 1px;
+    width:200px;
+    vertical-align: text-bottom;
+    margin:30px 0;
+}
+.lineimg{
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    margin:15px 10px ;
+}
+//在线商城模块
+.shop{
+    text-align: center;
+    margin-top:100px;
+    .card{
+        box-shadow: 0px 56px 36px -60px #121D12;
+    }
+    .card-body{
+        text-align:left;
+        h5{
+            font-size: 24px;
+        }
+        p{
+            text-indent:32px;
+            font-size: 16px;
+        }
+    }
+}
 }

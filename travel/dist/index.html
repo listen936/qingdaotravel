@@ -18,15 +18,13 @@
     <div>
              <!-- 头部 -->
             <header class=" fixed">
-                <div class="container setheight" >
-                    <div class="row justify-content-between align-items-center setheight">
+                <div class="container-fluid setheight" >
+                    <div class="row  align-items-center setheight">
                         <!-- logo -->
-                        <div class="col-4 logomid">
+                        <div class="logomid">
                             <h1>
                                 <a href="#">
                                     <img src="./images/logo.png" alt="">
-                                    <!-- <p class="headtext">欢迎访问</p>
-                                    <p class="headtext">青岛旅游信息网</p> -->
                                 </a>
                             </h1>
                         </div>
@@ -39,26 +37,28 @@
                                 </nav>
                         </div>
                         <div class="menu_block container-fluid" >
-                            <nav class=" ">
-                                <ul class="row">
-                                    <li class="col-2">
+                            <nav class="row">
+                                <ul class="col-xl-5">                            
+                                    <li class="col-xl-4 ">
                                         <a href="#">首页</a>
                                     </li>
-                                    <li class="col-2">
+                                    <li class="col-xl-4">
                                         <a href="#" class="sf-with-ul">关于青岛
                                         </a>
                                     </li>
-                                    <li class="col-2">
+                                    <li class="col-xl-4">
                                         <a href="#">畅游青岛</a>
                                     </li>
-                                    <!-- <li class="col-md-auto"></li> -->
-                                    <li class="col-2">
+                                </ul>
+                                <div class="col-xl-2"></div>
+                                <ul class="col-xl-5">
+                                    <li class="col-xl-4">
                                         <a href="#">在线商城</a>
                                     </li>
-                                    <li class="col-2">
+                                    <li class="col-xl-4">
                                         <a href="#">体验分享</a>
                                     </li>
-                                    <li class="col-2">
+                                    <li class="col-xl-4">
                                         <a href="#">在线调查</a>
                                     </li>
                                 </ul>
@@ -93,8 +93,8 @@
                         <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
                     </div>
              </div>
-            <!-- 轮播1 -->
-            <div id="banner1" class="carousel slide" data-ride="carousel">
+            <!-- 轮播1 关于青岛-->
+            <div id="banner1" class="carousel slide" data-ride="carousel" data-pause="false">
             
                 <!-- 指示符 -->
                 <ul class="carousel-indicators">
@@ -170,6 +170,106 @@
                     <span class="carousel-control-next-icon"></span>
                 </a>
             
+            </div>
+            <!-- 畅游青岛 -->
+            <div class="tour">
+                <h3 class="blocktitle">畅游青岛</h3>
+                <span class="line"></span>
+                <img src="../images/star.png" alt="" class="lineimg">
+                <span class="line"></span>
+                <div class="container">
+                    <div class="row">
+                        <div class="imgbox col-xl-4">
+                            <div class="imgshade">
+                                <p>景点</p>
+                            </div>
+                            <a href="">
+                                <img src="../images/tour/s.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="imgbox col-xl-4">
+                            <div class="imgshade">
+                                <p>线路</p>
+                            </div>
+                            <a href="">
+                                <img src="../images/tour/shan.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="imgbox col-xl-4">
+                            <div class="imgshade">
+                                <p>住宿</p>
+                            </div>
+                            <a href="">
+                                <img src="../images/tour/t1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="imgbox col-xl-4">
+                                <div class="imgshade">
+                                    <p>购物</p>
+                                </div>
+                                <a href="">
+                                    <img src="../images/tour/shopping.jpg" alt="">
+                                </a>
+                            </div>
+                        
+                            
+                        <div class="imgbox col-xl-4">
+                            <div class="imgshade">
+                                <p>美食</p>
+                            </div>
+                            <a href="">
+                                <img src="../images/tour/food.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="imgbox col-xl-4">
+                                <div class="imgshade">
+                                    <p>节庆</p>
+                                </div>
+                                <a href="">
+                                    <img src="../images/tour/active.jpg" alt="">
+                                </a>
+                            </div>
+                        
+                    </div>
+                       
+                </div>
+            </div>
+            <!-- 在线商城 -->
+            <div class="shop">
+                    <h3 class="blocktitle">在线商城</h3>
+                    <span class="line"></span>
+                    <img src="../images/star.png" alt="" class="lineimg">
+                    <span class="line"></span>
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" >
+                                <a href="http://flight.elong.com/">
+                                    <img class="card-img-top" src="../images/shoponline/jipiao.jpg" alt="机票预订">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">机票预订</h5>
+                                    <p class="card-text">这是一个快节奏的时代，时间分外珍贵， 所以乘飞机出行成为越来越多的人尤其是商旅人士的出行方式的第一选择。 订机票服务为我们提供了航班时刻查询、机票优惠信息等多重信息， 使我们预订机票不再琐碎麻烦</p>
+                                    
+                                </div>
+                                <div class="card-footer">
+                                    <a href="http://flight.elong.com/" class="btn btn-primary">去预定</a>
+                                 </div>
+                            </div>
+                            <div class="card" >
+                                <a href="http://travel.elong.com/hotel/?campaign_id=2000000000763889613" >
+                                    <img class="card-img-top" src="../images/shoponline/jiudian.jpg" alt="酒店预订">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">酒店预订</h5>
+                                    <p class="card-text">酒店预订的主要服务项目是为商旅客人提供酒店预订服务。 一键直达酒店前台，分类搜索酒店信息。简单的酒店预订，不简单的潇洒与从容。</p>
+                                </div>
+                                <div class="card-footer">
+                                        <a href="http://travel.elong.com/hotel/?campaign_id=2000000000763889613" class="btn btn-primary">去预定</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
     </div>
     <!-- <div class="d1"><a href="main.html">223</a></div> -->
