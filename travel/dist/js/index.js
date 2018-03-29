@@ -23,7 +23,7 @@ webpackJsonp([0],[
 
 
 	function init() {
-	  initClick();
+	  // initClick() ;
 	}
 
 	function initClick() {

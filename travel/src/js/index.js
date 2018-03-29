@@ -7,10 +7,11 @@ import {animal,myname} from './animal' ;
 import '../lib/bootstrap';
 $(function(){
   init() ;
+  
 });
 
 function init(){
-  initClick() ;
+  // initClick() ;
 }
 
 function initClick(){

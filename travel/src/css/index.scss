@@ -367,7 +367,34 @@ header {
 }
 footer{
     margin-top:100px;
+    padding:80px 0;
     background: #70B8E8;
-    height: 400px;
+    .footlink{
+        padding-bottom: 30px;
+        h4{
+            font-size: 16px;
+            color:#333;
+            line-height: 24px;
+            margin-bottom: 15px;
+            font-weight: bolder;
+        }
+        a{color:#666;font-size: 14px;
+        &:hover{
+            color:#fff;
+        }
+        }
+        
+    }
+    .copyright1{
+        font-size: 16px;
+        text-align:center;
+        color:#000;
+    }
+    img{
+        width: 60px;
+        height: 60px;
+        margin: 10px
+        ;
+    }
 }
 }
