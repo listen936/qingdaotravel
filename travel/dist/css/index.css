@@ -1,167 +1,7 @@
-@charset "UTF-8";
-/*重置样式*/
-body {
-  margin: 0;
-  padding: 0;
-  font: 12px/1.5 helvetica,arial,"Microsoft YaHei",\5b8b\4f53; }
-
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
-  padding: 0;
-  margin: 0; }
-
-table, td, tr, th {
-  font-size: 12px; }
-
-ol, ul {
-  list-style: none; }
-
-li {
-  list-style-type: none; }
-
-img {
-  vertical-align: top;
-  border: 0;
-  max-width: 100%;
-  height: auto; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: normal; }
-
-address, cite, code, em, th, i, var {
-  font-weight: normal;
-  font-style: normal; }
-
-.clearfix {
-  *zoom: 1; }
-
-.clearfix:after {
-  display: block;
-  overflow: hidden;
-  clear: both;
-  height: 0;
-  visibility: hidden;
-  content: "."; }
-
-a {
-  text-decoration: none; }
-
-a:hover {
-  text-decoration: none; }
-
-input {
-  outline: 0;
-  outline: none; }
-
-header {
-  width: 100%;
-  background: url("../images/background.jpg") center 0 no-repeat;
-  background-size: 100% 100%; }
-  header .headtext {
-    text-align: center;
-    color: #000; }
-
-.setheight {
-  height: 100%; }
-
-.fixed {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 10000; }
-
-.sonmenu {
-  position: fixed;
-  top: 10%;
-  z-index: 10000;
-  width: 100%;
-  text-align: center; }
-  .sonmenu h3 {
-    line-height: 40px;
-    font-size: 16px;
-    border-bottom: 1px solid #b1aeae; }
-    .sonmenu h3:hover {
-      background: #5caff3; }
-      .sonmenu h3:hover a {
-        color: #fff; }
-    .sonmenu h3 a {
-      color: #666; }
-
-.menu_block {
-  display: none; }
-
-.bighide {
-  display: block; }
-
-@media (min-width: 576px) {
-  .sonmenu {
-    position: fixed;
-    top: 10%;
-    z-index: 10000;
-    width: 100%;
-    text-align: center; }
-    .sonmenu h3 {
-      line-height: 40px;
-      font-size: 16px;
-      border-bottom: 1px solid #b1aeae; }
-      .sonmenu h3:hover {
-        background: #5caff3; }
-        .sonmenu h3:hover a {
-          color: #fff; }
-      .sonmenu h3 a {
-        color: #666; } }
-
-@media (min-width: 992px) {
-  head {
-    height: 170px; }
-  .sonmenu {
-    display: none; }
-  .bighide {
-    display: none; }
-  .menu_block {
-    display: block; }
-    .menu_block li {
-      text-align: center; }
-      .menu_block li a {
-        font-size: 16px; }
-  .logomid {
-    position: absolute;
-    left: 40%;
-    width: 20%;
-    height: 100%; }
-    .logomid h1 {
-      background: #fff;
-      border-radius: 50%;
-      height: 168px;
-      width: 168px;
-      position: relative; }
-      .logomid h1 img {
-        margin: 52.5px auto; } }
-
 @media (min-width: 1200px) {
-  header {
-    height: 200px; }
-    header .logomid {
-      margin-top: 16px; }
-    header .menu_block ul > li {
-      float: left; }
-    header .menu_block a {
-      font-size: 24px;
-      font-weight: bold;
-      color: #5caff3; }
-      header .menu_block a:hover {
-        color: #021C91; }
-  .logomid {
-    position: absolute;
-    left: 50%;
-    margin-left: -84px;
-    /* width: 20%; */
-    height: 100%; }
-  #banner1 {
-    margin-top: 200px; }
-    #banner1 img {
-      width: 100%;
-      height: 749px; }
+  #banner1 img {
+    width: 100%;
+    height: 749px; }
   .carousel-inner img {
     width: 100%;
     height: 100%; }
@@ -279,7 +119,8 @@ header {
     .idea .contact form {
       width: 81%;
       margin: 0 auto; }
-    .idea .contact form input[type="text"], .idea .contact textarea {
+    .idea .contact form input[type="text"],
+    .idea .contact textarea {
       color: #CDCDCD;
       border: 1px solid #CDCDCD;
       outline: 0;
@@ -300,29 +141,4 @@ header {
       border: none;
       outline: none;
       margin-top: 34px;
-      font-size: 16px; }
-  footer {
-    margin-top: 100px;
-    padding: 80px 0;
-    background: #70B8E8; }
-    footer .footlink {
-      padding-bottom: 30px; }
-      footer .footlink h4 {
-        font-size: 16px;
-        color: #333;
-        line-height: 24px;
-        margin-bottom: 15px;
-        font-weight: bolder; }
-      footer .footlink a {
-        color: #666;
-        font-size: 14px; }
-        footer .footlink a:hover {
-          color: #fff; }
-    footer .copyright1 {
-      font-size: 16px;
-      text-align: center;
-      color: #000; }
-    footer img {
-      width: 60px;
-      height: 60px;
-      margin: 10px; } }
+      font-size: 16px; } }
