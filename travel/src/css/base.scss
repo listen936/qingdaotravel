@@ -138,4 +138,53 @@ footer{
       ;
   }
 }
+// 链接导航
+.linkbox{
+    // position: fixed;
+    z-index: 10000;
+    top:200px;
+    left:0;
+    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+.pagelink{
+    padding-left:40px;
+    line-height: 54px;
+    font-size: 18px;
+    background: #fff;
+    a{
+     
+        color: #333;
+    }
+    .unlink {
+        color:#999;
+    }
+}
+.title{
+    margin-top:54px;
+    text-align: center;
+    padding:20px 0;
+    font-size: 36px;
+}
+//分类导航栏
+.typebox{
+    padding: 10px 0 20px 30px;
+    ul{margin-left: 40px;}
+    li{
+        margin-top:10px;
+        height: 14px;
+        float:left;
+        font-size: 14px;
+        line-height: 14px;
+        a{color: #316dee;}
+    }
+    .rightborder{
+        padding-right: 10px;
+        border-right:1px solid #316dee;
+        margin-right: 10px;
+    }
+}
+.typetitle{
+    font-size: 16px;
+    margin-top:10px;
+}
 }
