@@ -1,20 +1,15 @@
 // 载入外挂
 var gulp = require('gulp'),
-    // sass = require('gulp-ruby-sass'),
-    // scss = require('gulp-scss'),
     sass = require('gulp-sass'),    
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
-    // jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
     rename = require('gulp-rename'),
     clean = require('gulp-clean'),
     order = require("gulp-order"),
     concat = require('gulp-concat'),
-    // notify = require('gulp-notify'),
     cache = require('gulp-cache'),
-    // livereload = require('gulp-livereload'),
     webpack = require('gulp-webpack'),
     connect = require("gulp-connect"),
     fileinclude = require('gulp-file-include') ;
@@ -38,22 +33,6 @@ gulp.task('scripts', function(callback) {
       .pipe(gulp.dest('dist/js'))
       .pipe(connect.reload());
 });
-//gulp.task('scripts', function() {
-//  return gulp.src(['src/**/*.js'])
-//      .pipe(order([
-//        "lib/jquery-2.0.3.min.js",
-//        "lib/*.js",
-//        "js/*.js"
-//      ]))
-//      .pipe(jshint('.jshintrc'))
-//      .pipe(jshint.reporter('default'))
-//      .pipe(concat('main.js'))
-//      .pipe(gulp.dest('dist/js'))
-//      .pipe(rename({ suffix: '.min' }))
-//      .pipe(uglify())
-//      .pipe(gulp.dest('dist/js'))
-//      .pipe(notify({ message: 'Scripts task complete' }));
-//});
 
 // 图片
 gulp.task('images', function() {
@@ -113,7 +92,6 @@ gulp.task('watch', function() {
 
   gulp.watch(["xml/*.xml", "json/*.json", "!json/1.json"], ['data']) ;
 
-  // livereload.listen();
-  // gulp.watch(['dist/**']).on('change', livereload.changed);
+ 
 
 });

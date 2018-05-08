@@ -1,0 +1,103 @@
+@media (min-width: 1200px) {
+  .titlepicture {
+    position: relative; }
+    .titlepicture h1 {
+      font-size: 56px;
+      color: #fff;
+      position: absolute;
+      left: 11%;
+      top: 35%; }
+  .main {
+    margin-top: 100px; }
+    .main .maintop {
+      border-bottom: 1px solid #e4e4e4;
+      padding: 10px; }
+    .main .lefttop {
+      font-size: 24px;
+      color: #ff9d00; }
+    .main .tn-write a {
+      display: block;
+      height: 36px;
+      background-color: #ff9d00;
+      color: #fff;
+      text-align: center;
+      border-radius: 4px;
+      line-height: 36px;
+      font-size: 16px; }
+    .main .tn-write i {
+      display: inline-block;
+      margin-right: 5px;
+      width: 18px;
+      height: 17px;
+      background-position: 0 0;
+      overflow: hidden;
+      vertical-align: -3px;
+      background: url("../images/index-sprites9.png") no-repeat; }
+    .main .listbox {
+      margin-top: 30px;
+      min-height: 500px; }
+      .main .listbox .media {
+        padding: 15px; }
+        .main .listbox .media:hover {
+          background-color: #f8f8f8; }
+      .main .listbox img {
+        width: 400px;
+        height: 250px; }
+      .main .listbox h3 {
+        padding: 10px 0; }
+        .main .listbox h3 a {
+          font-size: 24px;
+          color: #333; }
+          .main .listbox h3 a:hover {
+            color: #ff8a00; }
+      .main .listbox p {
+        font-size: 16px;
+        height: 170px;
+        text-indent: 32px; }
+      .main .listbox .tn-extra {
+        height: 34px;
+        overflow: hidden;
+        line-height: 34px; }
+        .main .listbox .tn-extra i {
+          background: url("../images/index-sprites9.png") no-repeat; }
+        .main .listbox .tn-extra .tn-ding {
+          float: right;
+          color: #ff9d00;
+          font-size: 14px;
+          text-align: right; }
+          .main .listbox .tn-extra .tn-ding .btn-ding {
+            float: right;
+            margin-left: 8px;
+            width: 38px;
+            height: 33px;
+            background-position: -60px 0 !important;
+            overflow: hidden;
+            background: url("../images/index-sprites9.png") no-repeat; }
+        .main .listbox .tn-extra .tn-place i {
+          float: left;
+          margin: 8px 5px 0 0;
+          width: 14px;
+          height: 16px;
+          background-position: 0 -50px !important;
+          overflow: hidden; }
+        .main .listbox .tn-extra .tn-user {
+          margin-left: 30px; }
+          .main .listbox .tn-extra .tn-user img {
+            margin-right: 5px;
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            border-radius: 50%;
+            vertical-align: -3px; }
+        .main .listbox .tn-extra .tn-nums {
+          font-size: 14px;
+          color: #999;
+          display: inline-block;
+          margin-left: 30px; }
+          .main .listbox .tn-extra .tn-nums i {
+            float: left;
+            margin: 10px 5px 0 0;
+            width: 18px;
+            height: 14px;
+            background-position: -30px -50px !important;
+            background: url("../images/index-sprites9.png") no-repeat; } }
