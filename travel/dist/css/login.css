@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+  html, body {
+    height: 100%;
+    width: 100%; }
+  body {
+    background: url(../images/64_736959_82aa7ede963bc57.jpg) no-repeat center center;
+    background-size: 100%; }
+  .box .main {
+    padding-top: 150px;
+    text-align: center; }
+    .box .main h1 {
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 30px; }
+    .box .main .formtop {
+      background: #fff;
+      border-radius: 8px; }
+      .box .main .formtop p {
+        text-align: left;
+        line-height: 100px;
+        text-indent: 30px;
+        font-size: 35px;
+        color: #e8b721;
+        margin: 0; }
+    .box .main .formbox {
+      padding: 0;
+      background: #fff;
+      border-radius: 8px;
+      margin: 0 auto; }
+      .box .main .formbox div {
+        margin: 0;
+        padding: 0; }
+      .box .main .formbox button {
+        margin: 0 auto; }
+    .box .main form {
+      background: #e3eaec;
+      border-radius: 0 0 8px 8px; }
+    .box .main .toregister {
+      text-align: right; }
+      .box .main .toregister a {
+        margin-right: 20px; } }
