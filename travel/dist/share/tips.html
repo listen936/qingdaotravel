@@ -4,59 +4,277 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/tips.min.css">
+    <link rel="stylesheet" href="../css/base.min.css" />
+    <script src="../js/public.js"></script>
     <title>青岛旅游网</title>
 </head>
 <body>
-    <header class=" fixed">
-        <div class="container-fluid setheight">
-            <div class="row  align-items-center setheight">
-                <!-- logo -->
-                <div class="logomid">
-                    <a href="../index.html">
-                        <h1></h1>
-                    </a>
+    <!-- 头部 -->
+    <header class="">
+            <div class="container-fluid setheight" >
+                <div class="row  align-items-center setheight">
+                    <!-- logo -->
+                    <div class="logomid">
+                            <a href="../index.html">
+                                <h1></h1>
+                            </a>
+                    </div>
+                    <!-- 导航收缩 -->
+                    <div class="pos-r-b bighide">
+                            <nav class="navbar ">
+                              <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                            </nav>
+                    </div>
+                    <div class="menu_block container-fluid" >
+                        <nav class="row">
+                            <ul class="col-xl-5">                            
+                                <li class="col-xl-4 ">
+                                    <a href="../index.html">首页</a>
+                                    
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#" class="sf-with-ul">关于青岛
+                                    </a>
+                                    <ul class="sonul">
+                                        <li><a href="../about/city.html">青岛的城</a></li>
+                                        <li><a href="../about/sea.html">青岛的海</a></li>
+                                        <li><a href="../about/wine.html">青岛的酒</a></li>
+                                        <li><a href="../about/mountain.html">青岛的山</a></li>
+                                        <li><a href="../about/general.html">青岛概述</a></li>  
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#">畅游青岛</a>
+                                    <ul class="sonul">
+                                        <li><a href="../tour/tour.html">景点</a></li>
+                                        <li><a href="#">路线</a></li>
+                                        <li><a href="#">住宿</a></li>
+                                        <li><a href="#">购物</a></li>
+                                        <li><a href="#">美食</a></li>
+                                        <li><a href="#">节庆</a></li>  
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="col-xl-2"></div>
+                            <ul class="col-xl-5">
+                                <li class="col-xl-4">
+                                    <a href="#">在线商城</a>
+                                    <ul class="sonul">
+                                        <li><a href="http://flight.elong.com/">机票预订</a></li>
+                                        <li><a href="http://travel.elong.com/hotel/?campaign_id=2000000000763889613">酒店预订</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#">体验分享</a>
+                                    <ul class="sonul">
+                                        <li><a href="../share/share.html">游记攻略</a></li>
+                                        <li><a href="../share/tips.html">咨询小贴士</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="../idea.html">意见征集</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="clear"></div>
+                    </div>
                 </div>
-                <!-- 导航收缩 -->
-                <div class="pos-r-b bighide">
-                    <nav class="navbar ">
-                        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                </div>
-                <div class="menu_block container-fluid">
-                    <nav class="row">
-                        <ul class="col-xl-5">
-                            <li class="col-xl-4 ">
-                                <a href="../index.html">首页</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#" class="sf-with-ul">关于青岛
-                                </a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">畅游青岛</a>
-                            </li>
-                        </ul>
-                        <div class="col-xl-2"></div>
-                        <ul class="col-xl-5">
-                            <li class="col-xl-4">
-                                <a href="#">在线商城</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">体验分享</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">意见征集</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="clear"></div>
-                </div>
+        
             </div>
-    
+        </header> 
+    <!-- 网页指向 -->
+    <div class="container-fluid linkbox">
+            <div class="row  pagelink">
+                <a href="../index.html">首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a>
+                <a href="#" class="unlink">体验分享&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a>
+                <a href="./tips.html" >咨询小贴士</a>
+            </div>
+    </div> 
+    <div class="container notebox">
+        <div class="row ">
+            <div class="col-lg-3">
+                <img src="../images/share/tips/1.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-1">
+                <h3><a href="./moretips.html">旅游锦囊</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="../images/share/tips/2.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-2">
+                <h3><a href="#">游览知识</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>         
         </div>
-    </header>
+        <div class="row ">
+            <div class="col-lg-3 textbox-r bg-3">
+                <h3><a href="#">旅游交通</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了.这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="../images/share/tips/3.jpg" alt="">
+            </div>
+            
+            <div class="col-lg-3 textbox-r bg-4">
+                <h3><a href="#">安全保健</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>  
+            <div class="col-lg-3">
+                <img src="../images/share/tips/4.jpg" alt="">
+            </div>       
+        </div>
+        <div class="row ">
+            <div class="col-lg-3">
+                <img src="../images/share/tips/5.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-5">
+                <h3><a href="#">旅游购物</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="../images/share/tips/6.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-6">
+                <h3><a href="#">摄像摄影</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>         
+        </div>
+        <div class="row ">
+            <div class="col-lg-3 textbox-r bg-7">
+                <h3><a href="#">出国礼仪</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了.这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="../images/share/tips/7.jpg" alt="">
+            </div>
+            
+            <div class="col-lg-3 textbox-r bg-8">
+                <h3><a href="#">电话指南</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>  
+            <div class="col-lg-3">
+                <img src="../images/share/tips/8.jpg" alt="">
+            </div>       
+        </div>
+        <div class="row ">
+            <div class="col-lg-3">
+                <img src="../images/share/tips/9.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-9">
+                <h3><a href="#">相关规定</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="../images/share/tips/10.jpg" alt="">
+            </div>
+            <div class="col-lg-3 textbox-l bg-10">
+                <h3><a href="#">其他事项</a></h3>
+                <p>这一季，很多朋友都选择去青岛旅游，想要玩得嗨玩得爽，吃海鲜、喝啤酒和洗海澡肯定少不了。这里送大家几道锦囊，吃吃喝喝玩耍前瞄一眼，保准...
+                </p>
+            </div>         
+        </div>
+       
+    </div>
+    <!--右边指示  -->
+    <div class="rightnav">
+            <div class="gototop">
+                <a href="javascript:void(0)">
+                    <i class="totopi"></i>
+                    <em>返回顶部</em>
+                </a>
+            </div>
+            <div class="gotoidea">
+                <a href="../idea.html">
+                    <i class="idea"></i>
+                    <em>意见反馈</em>
+                </a>
+            </div>
+            <div class="gotologin">
+                <a href="../login.html" target="_blank">
+                    <i class="login"></i>
+                    <em>还未登录</em>
+                </a>
+            </div>
+        </div>
+    <footer >
+                <div class="container">
+                <div class="row footlink">
+                    <div class="col">
+                        <h4>省市旅游网站</h4>
+                        <p>
+                            <a href="#">山东省旅游局</a>
+                        </p>
+                    </div>
+                    <div  class="col">
+                        <h4>旅游行业协会网站</h4>
+                        <p><a href="#">中国旅游行业协会</a></p>
+                        <p><a href="#">山东省旅游行业协会</a></p> 
+                        <p><a href="#">青岛饭店协会</a></p>
+                        <p><a href="#">中国旅游商品装备网</a></p>
+                    </div>
+                    <div  class="col">
+                        <h4>海外旅游网站</h4>
+                        <p><a href="#">英国观光局</a></p>
+                        <p><a href="#">韩国旅游发展局</a></p> 
+                        <p><a href="#">香港旅游发展局</a></p>
+                        <p><a href="#">台湾观光资讯网</a></p>
+                    </div>
+                    <div  class="col">
+                        <h4>旅游区点网站</h4>
+                        <p><a href="#">崂山风景区</a></p>
+                        <p><a href="#">青岛海底世界</a></p> 
+                        <p><a href="#">青岛茶山风景区</a></p>
+                    </div>
+                    <div  class="col">
+                        <h4>酒店网站</h4>
+                        <p>
+                            <a href="#">青岛复盛大酒店</a>
+                        </p>
+                    </div>
+                    <div  class="col">
+                        <h4>旅行社网站</h4>
+                        <p> <a href="#">青岛中青旅国际旅行社</a> </p>
+                        <p> <a href="#">华青国际旅行社</a> </p>
+                        <p> <a href="#">港中旅国际（山东）旅行社</a> </p>
+                    </div>
+                    <div  class="col">
+                        <h4>其他旅游网站</h4>
+                        <p> <a href="#">八喜旅游网</a> </p>
+                        <p> <a href="#">青岛航空</a> </p>
+                        <p> <a href="#">环球导航网</a> </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col copyright1">青岛市旅游发展委员会  青岛旅游信息中心  版权所有  保留所有权利</div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col copyright1">Copyright 2013, All rights reserved by Qingdao Tourism Information Centre</div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col copyright1">联系邮箱：85912037@163.com</div>               
+                </div>
+                <div class="row justify-content-center">
+                        <a  href="#"> <img src="..\images\red.png" alt=""></a> 
+                        <a  href="#"> <img src="..\images\logo.gif" alt=""></a>
+                        <a  href="#"> <img src="..\images\gangting.gif" alt=""></a>              
+                    </div>
+            </div>
+            </footer>
 </body>
 </html>

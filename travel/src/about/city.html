@@ -8,87 +8,89 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/city.min.css">
     <link rel="stylesheet" href="../css/base.min.css" />
+    <script src="../js/public.js"></script>
     <title>青岛旅游网</title>
 </head>
 
 <body>
-    <header class=" fixed">
-        <div class="container-fluid setheight">
-            <div class="row  align-items-center setheight">
-                <!-- logo -->
-                <div class="logomid">
-                        <a href="../index.html">
-                            <h1>                                
-                            </h1>
-                        </a>
-                    
+    <!-- 头部 -->
+    <header class="">
+            <div class="container-fluid setheight" >
+                <div class="row  align-items-center setheight">
+                    <!-- logo -->
+                    <div class="logomid">
+                            <a href="../index.html">
+                                <h1></h1>
+                            </a>
+                    </div>
+                    <!-- 导航收缩 -->
+                    <div class="pos-r-b bighide">
+                            <nav class="navbar ">
+                              <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                            </nav>
+                    </div>
+                    <div class="menu_block container-fluid" >
+                        <nav class="row">
+                            <ul class="col-xl-5">                            
+                                <li class="col-xl-4 ">
+                                    <a href="../index.html">首页</a>
+                                    
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#" class="sf-with-ul">关于青岛
+                                    </a>
+                                    <ul class="sonul">
+                                        <li><a href="./city.html">青岛的城</a></li>
+                                        <li><a href="./sea.html">青岛的海</a></li>
+                                        <li><a href="./wine.html">青岛的酒</a></li>
+                                        <li><a href="./mountain.html">青岛的山</a></li>
+                                        <li><a href="./general.html">青岛概述</a></li>  
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#">畅游青岛</a>
+                                    <ul class="sonul">
+                                        <li><a href="../tour/tour.html">景点</a></li>
+                                        <li><a href="#">路线</a></li>
+                                        <li><a href="#">住宿</a></li>
+                                        <li><a href="#">购物</a></li>
+                                        <li><a href="#">美食</a></li>
+                                        <li><a href="#">节庆</a></li>  
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="col-xl-2"></div>
+                            <ul class="col-xl-5">
+                                <li class="col-xl-4">
+                                    <a href="#">在线商城</a>
+                                    <ul class="sonul">
+                                        <li><a href="http://flight.elong.com/">机票预订</a></li>
+                                        <li><a href="http://travel.elong.com/hotel/?campaign_id=2000000000763889613">酒店预订</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="#">体验分享</a>
+                                    <ul class="sonul">
+                                        <li><a href="../share/share.html">游记攻略</a></li>
+                                        <li><a href="../share/tips.html">咨询小贴士</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="col-xl-4">
+                                    <a href="../idea.html">意见征集</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="clear"></div>
+                    </div>
                 </div>
-                <!-- 导航收缩 -->
-                <div class="pos-r-b bighide">
-                    <nav class="navbar ">
-                        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </nav>
-                </div>
-                <div class="menu_block container-fluid">
-                    <nav class="row">
-                        <ul class="col-xl-5 ">
-                            <li class="col-xl-4 ">
-                                <a href="../index.html">首页</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#" class="sf-with-ul">关于青岛
-                                </a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">畅游青岛</a>
-                            </li>
-                        </ul>
-                        <div class="col-xl-2"></div>
-                        <ul class="col-xl-5">
-                            <li class="col-xl-4">
-                                <a href="#">在线商城</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">体验分享</a>
-                            </li>
-                            <li class="col-xl-4">
-                                <a href="#">在线调查</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="clear"></div>
-                </div>
+        
             </div>
-
-        </div>
-    </header>
-    <!-- 下拉菜单 576-991px-->
-    <div class="collapse sonmenu" id="navbarToggleExternalContent">
-        <div class="bg-light">
-            <h3 class="text-white">
-                <a href="#">首页</a>
-            </h3>
-            <h3 class="text-white">
-                <a href="#">关于青岛</a>
-            </h3>
-            <h3 class="text-white">
-                <a href="#">畅游青岛</a>
-            </h3>
-            <h3 class="text-white">
-                <a href="#">在线商城</a>
-            </h3>
-            <h3 class="text-white">
-                <a href="#">体验分享</a>
-            </h3>
-            <h3 class="text-white">
-                <a href="#">在线调查</a>
-            </h3>
-            <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
-        </div>
-    </div>
+    </header> 
+    
     <!-- 网页指向 -->
     <div class="container-fluid linkbox">
         <div class="row  pagelink">
@@ -105,12 +107,12 @@
             <img src="../images/about/city/chenginfo.jpg" alt="">
         </div>
         <div class="main">
-            <div class=" mainnav">
-                <ul class="row col">
+            <div class="mainnav">
+                <ul class="row">
                     <li class="col">
                         <a href="#a1">青岛简介</a>
                     </li>
-                    <li class="col">
+                    <li class="col-lg-2">
                         <a href="#a2">最佳旅游时间</a>
                     </li>
                     <li class="col">
@@ -311,6 +313,27 @@
             </div>
         </div>
     </div>
+    <!--右边指示  -->
+    <div class="rightnav">
+            <div class="gototop">
+                <a href="javascript:void(0)">
+                    <i class="totopi"></i>
+                    <em>返回顶部</em>
+                </a>
+            </div>
+            <div class="gotoidea">
+                <a href="../idea.html">
+                    <i class="idea"></i>
+                    <em>意见反馈</em>
+                </a>
+            </div>
+            <div class="gotologin">
+                <a href="../login.html" target="_blank">
+                    <i class="login"></i>
+                    <em>还未登录</em>
+                </a>
+            </div>
+        </div>
     @@include('../footer.inc')
 </body>
 

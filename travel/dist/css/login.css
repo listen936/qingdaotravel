@@ -38,4 +38,10 @@
     .box .main .toregister {
       text-align: right; }
       .box .main .toregister a {
-        margin-right: 20px; } }
+        margin-right: 20px; }
+  .box .tips {
+    text-align: left; }
+  .box .error {
+    color: red; }
+  .box .correct {
+    color: #328b08; } }

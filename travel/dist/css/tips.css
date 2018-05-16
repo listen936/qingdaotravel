@@ -1,0 +1,84 @@
+@media (min-width: 1200px) {
+  .notebox {
+    margin-top: 100px; }
+    .notebox div {
+      margin: 0;
+      padding: 0; }
+    .notebox .row div {
+      height: 277.5px; }
+    .notebox img {
+      width: 100%;
+      height: 100%; }
+    .notebox .textbox-l, .notebox .textbox-r {
+      padding: 15px; }
+      .notebox .textbox-l h3, .notebox .textbox-r h3 {
+        font-family: 'Raleway', 'Arial', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0px 0px 15px 0px;
+        line-height: 32px; }
+        .notebox .textbox-l h3 a, .notebox .textbox-r h3 a {
+          color: #8fbfd2; }
+      .notebox .textbox-l p, .notebox .textbox-r p {
+        font-size: 17px;
+        line-height: 24px; }
+    .notebox .textbox-l:before {
+      border: 20px solid transparent;
+      content: '';
+      display: block;
+      height: 0px;
+      left: -40px;
+      position: absolute;
+      top: 17px;
+      width: 0px;
+      z-index: 2; }
+    .notebox .textbox-r:before {
+      border: 20px solid transparent;
+      content: '';
+      display: block;
+      height: 0px;
+      right: -40px;
+      position: absolute;
+      top: 17px;
+      width: 0px;
+      z-index: 2; }
+    .notebox .bg-1 {
+      background: #fba6a6; }
+      .notebox .bg-1:before {
+        border-right-color: #fba6a6; }
+    .notebox .bg-2 {
+      background: #f7e89f; }
+      .notebox .bg-2:before {
+        border-right-color: #f7e89f; }
+    .notebox .bg-3 {
+      background: #88f2f3; }
+      .notebox .bg-3:before {
+        border-left-color: #88f2f3; }
+    .notebox .bg-4 {
+      background: #b96da5; }
+      .notebox .bg-4:before {
+        border-left-color: #b96da5; }
+    .notebox .bg-5 {
+      background: #f3c094; }
+      .notebox .bg-5:before {
+        border-right-color: #f3c094; }
+    .notebox .bg-6 {
+      background: #9c84ca; }
+      .notebox .bg-6:before {
+        border-right-color: #9c84ca; }
+    .notebox .bg-7 {
+      background: #88a8d2; }
+      .notebox .bg-7:before {
+        border-left-color: #88a8d2; }
+    .notebox .bg-8 {
+      background: #84ea9f; }
+      .notebox .bg-8:before {
+        border-left-color: #84ea9f; }
+    .notebox .bg-9 {
+      background: #ec6657; }
+      .notebox .bg-9:before {
+        border-right-color: #ec6657; }
+    .notebox .bg-10 {
+      background: #7656b3; }
+      .notebox .bg-10:before {
+        border-right-color: #7656b3; } }

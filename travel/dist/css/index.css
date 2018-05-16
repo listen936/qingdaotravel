@@ -2,6 +2,9 @@
   #banner1 img {
     width: 100%;
     height: 749px; }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 90px;
+    height: 80px; }
   .carousel-inner img {
     width: 100%;
     height: 100%; }
@@ -18,19 +21,20 @@
     margin-top: 100px;
     text-align: center; }
     .tour .imgbox {
-      padding: 0; }
+      overflow: hidden;
+      padding: 0;
+      transition: all 0.5s; }
       .tour .imgbox img {
         width: 100%;
-        height: 100%; }
-      .tour .imgbox:hover .imgshade {
-        display: block; }
+        height: 100%;
+        transition: all 0.5s; }
+      .tour .imgbox:hover img {
+        transform: scale(1.2); }
     .tour .imgshade {
       position: absolute;
       z-index: 10;
       width: 100%;
-      height: 100%;
-      background: rgba(51, 48, 238, 0.4);
-      display: none; }
+      height: 100%; }
       .tour .imgshade p {
         position: absolute;
         left: 50%;
@@ -89,6 +93,8 @@
           .share .sharetext .article li a {
             color: #000;
             line-height: 30px; }
+            .share .sharetext .article li a:hover {
+              color: #fa8703; }
   .idea {
     text-align: center;
     margin-top: 100px; }

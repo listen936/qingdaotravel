@@ -1,4 +1,4 @@
-webpackJsonp([1],[
+webpackJsonp([2],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9,7 +9,6 @@ webpackJsonp([1],[
 	$(function () {
 	  init();
 	}); /**
-	     * Created by 天俊sama on 2016/7/9.
 	     */
 
 	function init() {

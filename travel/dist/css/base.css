@@ -3,16 +3,39 @@
 body {
   margin: 0;
   padding: 0;
-  font: 12px/1.5 helvetica,arial,"Microsoft YaHei",\5b8b\4f53; }
+  font: 12px/1.5 helvetica, arial, "Microsoft YaHei", \5b8b\4f53; }
 
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+p {
   padding: 0;
   margin: 0; }
 
-table, td, tr, th {
+table,
+td,
+tr,
+th {
   font-size: 12px; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
 li {
@@ -24,11 +47,22 @@ img {
   max-width: 100%;
   height: auto; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: normal; }
 
-address, cite, code, em, th, i, var {
+address,
+cite,
+code,
+em,
+th,
+i,
+var {
   font-weight: normal;
   font-style: normal; }
 
@@ -71,9 +105,8 @@ header {
   z-index: 10000; }
 
 @media (min-width: 1200px) {
-  body {
-    padding-top: 200px; }
   header {
+    position: relative;
     height: 200px; }
     header .bighide {
       display: none; }
@@ -94,12 +127,33 @@ header {
     header .menu_block ul > li {
       float: left;
       text-align: center; }
+      header .menu_block ul > li:hover > a {
+        color: #021C91; }
+      header .menu_block ul > li:hover .sonul {
+        display: block; }
     header .menu_block a {
       font-size: 24px;
       font-weight: bold;
       color: #5caff3; }
-      header .menu_block a:hover {
-        color: #021C91; }
+    header .menu_block .sonul {
+      position: absolute;
+      z-index: 1000;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      left: 0;
+      display: none; }
+      header .menu_block .sonul li {
+        float: none;
+        padding: 5px 0; }
+        header .menu_block .sonul li:hover {
+          background: #5caff3; }
+          header .menu_block .sonul li:hover a {
+            color: #fff; }
+        header .menu_block .sonul li a {
+          font-size: 18px;
+          font-weight: 500;
+          color: #000;
+          line-height: 27px; }
   .logomid {
     position: absolute;
     left: 50%;
@@ -132,7 +186,7 @@ header {
       height: 60px;
       margin: 10px; }
   .linkbox {
-    z-index: 10000;
+    z-index: 500;
     top: 200px;
     left: 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); }
@@ -211,4 +265,60 @@ header {
         font-size: 16px;
         text-align: left;
         text-indent: 32px;
-        padding: 0 20px; } }
+        padding: 0 20px; }
+  .rightnav {
+    width: 50px;
+    min-height: 200px;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 10px; }
+    .rightnav div {
+      border: 1px solid #e5e5e5;
+      background: #fff; }
+    .rightnav i {
+      background: url(/images/header-sprites9.png) no-repeat 0 0;
+      display: block; }
+    .rightnav .gototop em {
+      left: 0px;
+      top: -1px; }
+    .rightnav .gototop:hover em {
+      display: block; }
+    .rightnav .gotoidea em {
+      left: 0px;
+      top: 47px; }
+    .rightnav .gotoidea:hover em {
+      display: block; }
+    .rightnav .gotologin em {
+      left: 0px;
+      top: 99px; }
+    .rightnav .gotologin:hover em {
+      display: block; }
+    .rightnav .totopi {
+      width: 21px;
+      height: 12px;
+      background-position: -60px -165px;
+      margin: 16px auto; }
+    .rightnav .idea {
+      width: 18px;
+      height: 18px;
+      background-position: -90px -165px;
+      margin: 16px auto; }
+    .rightnav .login {
+      width: 18px;
+      height: 18px;
+      background-position: -90px -80px;
+      margin: 16px auto; }
+    .rightnav em {
+      width: 50px;
+      background-color: #aaa;
+      font-size: 14px;
+      line-height: 16px;
+      color: #fff;
+      font-style: normal;
+      position: absolute;
+      z-index: 2;
+      display: none;
+      padding: 8px 4px 5px 10px;
+      height: 50px;
+      border: 1px solid #aaa; } }

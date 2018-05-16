@@ -7,60 +7,87 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/share.min.css">
     <link rel="stylesheet" href="../css/base.min.css" />
+    <script src="../js/public.js"></script>
     <title>青岛旅游网</title>
 </head>
 <body>
-        <header class=" fixed">
-            <div class="container-fluid setheight">
-                <div class="row  align-items-center setheight">
-                    <!-- logo -->
-                    <div class="logomid">
-                        <a href="../index.html">
-                            <h1></h1>
-                        </a>
+        <!-- 头部 -->
+        <header class="">
+                <div class="container-fluid setheight" >
+                    <div class="row  align-items-center setheight">
+                        <!-- logo -->
+                        <div class="logomid">
+                                <a href="../index.html">
+                                    <h1></h1>
+                                </a>
+                        </div>
+                        <!-- 导航收缩 -->
+                        <div class="pos-r-b bighide">
+                                <nav class="navbar ">
+                                  <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                </nav>
+                        </div>
+                        <div class="menu_block container-fluid" >
+                            <nav class="row">
+                                <ul class="col-xl-5">                            
+                                    <li class="col-xl-4 ">
+                                        <a href="../index.html">首页</a>
+                                        
+                                    </li>
+                                    <li class="col-xl-4">
+                                        <a href="#" class="sf-with-ul">关于青岛
+                                        </a>
+                                        <ul class="sonul">
+                                            <li><a href="../about/city.html">青岛的城</a></li>
+                                            <li><a href="../about/sea.html">青岛的海</a></li>
+                                            <li><a href="../about/wine.html">青岛的酒</a></li>
+                                            <li><a href="../about/mountain.html">青岛的山</a></li>
+                                            <li><a href="../about/general.html">青岛概述</a></li>  
+                                        </ul>
+                                    </li>
+                                    <li class="col-xl-4">
+                                        <a href="#">畅游青岛</a>
+                                        <ul class="sonul">
+                                            <li><a href="../tour/tour.html">景点</a></li>
+                                            <li><a href="#">路线</a></li>
+                                            <li><a href="#">住宿</a></li>
+                                            <li><a href="#">购物</a></li>
+                                            <li><a href="#">美食</a></li>
+                                            <li><a href="#">节庆</a></li>  
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="col-xl-2"></div>
+                                <ul class="col-xl-5">
+                                    <li class="col-xl-4">
+                                        <a href="#">在线商城</a>
+                                        <ul class="sonul">
+                                            <li><a href="http://flight.elong.com/">机票预订</a></li>
+                                            <li><a href="http://travel.elong.com/hotel/?campaign_id=2000000000763889613">酒店预订</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    <li class="col-xl-4">
+                                        <a href="#">体验分享</a>
+                                        <ul class="sonul">
+                                            <li><a href="../share/share.html">游记攻略</a></li>
+                                            <li><a href="../share/tips.html">咨询小贴士</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="col-xl-4">
+                                        <a href="../idea.html">意见征集</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="clear"></div>
+                        </div>
                     </div>
-                    <!-- 导航收缩 -->
-                    <div class="pos-r-b bighide">
-                        <nav class="navbar ">
-                            <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </nav>
-                    </div>
-                    <div class="menu_block container-fluid">
-                        <nav class="row">
-                            <ul class="col-xl-5">
-                                <li class="col-xl-4 ">
-                                    <a href="../index.html">首页</a>
-                                </li>
-                                <li class="col-xl-4">
-                                    <a href="#" class="sf-with-ul">关于青岛
-                                    </a>
-                                </li>
-                                <li class="col-xl-4">
-                                    <a href="#">畅游青岛</a>
-                                </li>
-                            </ul>
-                            <div class="col-xl-2"></div>
-                            <ul class="col-xl-5">
-                                <li class="col-xl-4">
-                                    <a href="#">在线商城</a>
-                                </li>
-                                <li class="col-xl-4">
-                                    <a href="#">体验分享</a>
-                                </li>
-                                <li class="col-xl-4">
-                                    <a href="#">意见征集</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="clear"></div>
-                    </div>
+            
                 </div>
-        
-            </div>
-        </header>
+        </header>   
         <!-- 网页指向 -->
         <div class="container-fluid linkbox">
             <div class="row  pagelink">
@@ -69,7 +96,7 @@
                 <a href="./share.html" >游记攻略</a>
             </div>
         </div>  
-         <!--标题图  -->
+         <!--标题图-->
         <div class="titlepicture">
             <img src="../images/share/fenxianglist0.jpg" alt="">
             <h1>游记攻略</h1>
@@ -80,19 +107,29 @@
                     游记攻略
                 </div>
                 <div class="tn-write col-xl-2">
-                    <a class="btn-add" href="#">
+                    <a class="btn-add" href="../login.html" target="_blank">
                         <i></i>写游记
                     </a>
                 </div>
             </div>
             <div class="listbox">
                     <div class="media">
-                        <img class="mr-4" src="../images/share/fenxianglist.jpg" alt="Generic placeholder image">
+                        <img class="mr-4" src="../images/share/wKgBZ1leKfyAGaQtAAYVqROPpOM18.jpeg" alt="Generic placeholder image">
                         <div class="media-body">
                             <h3 class="mt-0">
-                                <a href="#">漫步青岛</a>
+                                <a href="./showshare.html">青岛┃面朝大海，春暖花开</a>
                             </h3>
-                            <p>2011年，佛山女孩梁研来到青岛，一个月的时间，每天，她行走在这个城市的大街小巷，山，海，建筑，一幅幅美丽的画面深深印在了梁妍的脑海中。梁妍决定，用一种自己擅长的方式，一笔一画，绘出这个她爱的城市，渐渐地，梁妍越画越想画，一整年的时间，她记录下记忆中的每一个细节，让生动的青岛，跃然纸上。两百多幅画作中，有美景，有生活，也有作者最真实的感悟，微博上，梁妍已经拥有6000多万的粉丝，无数的人，跟随梁妍的画笔，看到了一个不一样的青岛。大学毕业后，梁妍一直在广州一家设计公司工作，现在，她已...</p>
+                            <p> “你说你想在海边买一所房子 和你可爱的松狮一起住在那里 你会当一个心情杂货铺的老板娘 随着心情卖着自己喜欢的东西 生活越来越压抑 你变得越来越不像自己 一个人站在悲催的风里”——《玫瑰》<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一直有个梦,
+                                    在海边开间主题咖啡馆,
+                                    墙壁是我喜欢的淡蓝色,
+                                    书架上放着这些年来我读过的书籍,
+                                    店铺中的客人脸上洋溢着幸福的微笑,
+                                    傍晚和心爱的人在海边散步,
+                                    听海浪声，看落日余晖,
+                                    做一个黄昏收集者,
+                                    在每个日落的时候,
+                                    认认真真地浪费着生命  ————日Tinyfour月...</p>
+                           
                             <div class="tn-extra">
                                 <span class="tn-ding">
                                     <a class="btn-ding" href="#"></a>
@@ -100,10 +137,10 @@
                                 </span>
                                 <span class="tn-place">
                                     <i></i>
-                                    古北水镇</span>
+                                    青岛</span>
                                 <span class="tn-user">
                                     <a href="#" target="_blank" >
-                                        <img src="http://b1-q.mafengwo.net/s9/M00/D3/BD/wKgBs1bTtJGABwhZAAYlOL5f6g075.jpeg?imageMogr2%2Fthumbnail%2F%2116x16r%2Fgravity%2FCenter%2Fcrop%2F%2116x16%2Fquality%2F90"> 随风随性
+                                        <img src="http://b1-q.mafengwo.net/s9/M00/D3/BD/wKgBs1bTtJGABwhZAAYlOL5f6g075.jpeg?imageMogr2%2Fthumbnail%2F%2116x16r%2Fgravity%2FCenter%2Fcrop%2F%2116x16%2Fquality%2F90"> 日Tinyfour月      
                                     </a>
                                 </span>
                                 <span class="tn-nums">
@@ -112,10 +149,10 @@
                             </div>
                     </div>
                     <div class="media">
-                            <img class="mr-4" src="../images/share/fenxianglist.jpg" alt="Generic placeholder image">
+                            <img class="mr-4" src="../images/share/2.jpeg" alt="Generic placeholder image">
                             <div class="media-body">
                                 <h3 class="mt-0">
-                                    <a href="#">漫步青岛</a>
+                                    <a href="#">青岛的初夏，天晴如洗</a>
                                 </h3>
                                 <p>2011年，佛山女孩梁研来到青岛，一个月的时间，每天，她行走在这个城市的大街小巷，山，海，建筑，一幅幅美丽的画面深深印在了梁妍的脑海中。梁妍决定，用一种自己擅长的方式，一笔一画，绘出这个她爱的城市，渐渐地，梁妍越画越想画，一整年的时间，她记录下记忆中的每一个细节，让生动的青岛，跃然纸上。两百多幅画作中，有美景，有生活，也有作者最真实的感悟，微博上，梁妍已经拥有6000多万的粉丝，无数的人，跟随梁妍的画笔，看到了一个不一样的青岛。大学毕业后，梁妍一直在广州一家设计公司工作，现在，她已...</p>
                                 <div class="tn-extra">
@@ -125,7 +162,7 @@
                                     </span>
                                     <span class="tn-place">
                                         <i></i>
-                                        古北水镇</span>
+                                        青岛</span>
                                     <span class="tn-user">
                                         <a href="#" target="_blank" >
                                             <img src="http://b1-q.mafengwo.net/s9/M00/D3/BD/wKgBs1bTtJGABwhZAAYlOL5f6g075.jpeg?imageMogr2%2Fthumbnail%2F%2116x16r%2Fgravity%2FCenter%2Fcrop%2F%2116x16%2Fquality%2F90"> 随风随性
@@ -138,6 +175,27 @@
                         </div>
             </div>
         </div>
+        <!--右边指示  -->
+        <div class="rightnav">
+                <div class="gototop">
+                    <a href="javascript:void(0)">
+                        <i class="totopi"></i>
+                        <em>返回顶部</em>
+                    </a>
+                </div>
+                <div class="gotoidea">
+                    <a href="../idea.html">
+                        <i class="idea"></i>
+                        <em>意见反馈</em>
+                    </a>
+                </div>
+                <div class="gotologin">
+                    <a href="../login.html" target="_blank">
+                        <i class="login"></i>
+                        <em>还未登录</em>
+                    </a>
+                </div>
+            </div>
         <footer >
                 <div class="container">
                 <div class="row footlink">

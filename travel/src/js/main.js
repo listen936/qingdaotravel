@@ -1,5 +1,4 @@
 /**
- * Created by 天俊sama on 2016/7/9.
  */
 
 import {animal} from './animal' ;
